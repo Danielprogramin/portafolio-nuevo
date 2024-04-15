@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Portafolio() {
     return (
-      <section>
-        <div className="container px-5 py-24 mx-auto">
+   
+        <div className="container px-5 py-24 mx-auto h-screen">
           <div className="flex flex-wrap w-full mb-20">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
               <h1 className="sm:text-3xl text-2xl font-medium title-font  text-gray-900">
@@ -11,7 +11,7 @@ export default function Portafolio() {
               </h1>
             </div>
           </div>
-          <div className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap -m-4 ">
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className="bg-orange-200 p-6 rounded-lg">
                 <Image
@@ -71,7 +71,7 @@ export default function Portafolio() {
             </button>
           </div>
         </div>
-      </section>
+    
     );
   }
   

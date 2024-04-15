@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function About() {
     return (
-      <section>
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center h-screen">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <Image
               className="object-cover object-center rounded"
@@ -30,7 +30,7 @@ export default function About() {
             </p>
           </div>
         </div>
-      </section>
+      
     );
   }
   
