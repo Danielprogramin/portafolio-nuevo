@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Habilidades() {
   return (
-    <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-16 py-8 sm:py-12 md:py-16 lg:py-20">
+    <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-16 py-8 sm:py-12 md:py-16 lg:py-20 lg:h-screen">
       <div className="text-center mb-8 sm:mb-12 md:mb-16 lg:mb-20">
         <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
           Habilidades

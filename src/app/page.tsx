@@ -7,10 +7,10 @@ import Portafolio from "./portafolio/page";
 export default function Home() {
   return (
     <main>
-      <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-16 py-8 sm:py-12 md:py-16 lg:py-20">
-        <div className="lg:flex lg:flex-row md:flex md:flex-row sm:flex sm:flex-col items-center justify-between">
+      <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-16 py-8 sm:py-12 md:py-16 lg:py-20 lg:h-screen ">
+        <div className="lg:flex lg:flex-row md:flex md:flex-row sm:flex sm:flex-col items-center justify-center w-full pt-24">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="text-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+            <h1 className="text-black text-2xl sm:text-2xl md:text-2xl lg:text-2xl">
               Hola, Soy Daniel Ortiz
             </h1>
             <p className="sm:text-3xl text-2xl mb-8 text-black">
