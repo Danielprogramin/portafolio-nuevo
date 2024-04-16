@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { b612_mono } from "../../fonts";
-
+import Nav from "./components/Nav";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,8 +16,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${b612_mono.className} antialiased`}>
+        <div>
+          <Nav />
+        </div>
         {children}
-        </body>
+      </body>
     </html>
   );
 }
