@@ -1,14 +1,14 @@
 import Image from "next/image";
-import Nav from "./components/Nav";
+import Nav from "../components/Nav";
 import About from "./about/page";
 import Habilidades from "./habilidades/page";
 import Portafolio from "./portafolio/page";
 
 export default function Home() {
   return (
-    <main>
-      <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-16 py-8 sm:py-12 md:py-16 lg:py-20 lg:h-screen ">
-        <div className="lg:flex lg:flex-row md:flex md:flex-row sm:flex sm:flex-col items-center justify-center w-full pt-24">
+    <main className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 py-8 sm:py-10 md:py-12 lg:py-14 xl:py-16">
+      <div>
+        <div className="lg:flex lg:flex-row md:flex md:flex-row sm:flex sm:flex-col items-center justify-center w-full">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="text-black text-2xl sm:text-2xl md:text-2xl lg:text-2xl">
               Hola, Soy Daniel Ortiz

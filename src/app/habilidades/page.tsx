@@ -1,9 +1,21 @@
 import Image from "next/image";
+
+import * as React from "react";
+
+import { Card, CardContent } from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
 export default function Habilidades() {
   return (
-    <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-16 py-8 sm:py-12 md:py-16 lg:py-20 lg:h-screen">
+    <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 py-8 sm:py-10 md:py-12 lg:py-14 xl:py-16">
       <div className="text-center mb-8 sm:mb-12 md:mb-16 lg:mb-20">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
+        <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 pt-10">
           Habilidades
         </h1>
         <p className="text-black leading-relaxed xl:w-2/4 lg:w-3/4 md:w-4/5 sm:w-full mx-auto">
@@ -12,7 +24,7 @@ export default function Habilidades() {
           calidad y rendimiento.
         </p>
       </div>
-      <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+      {/* <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
         <div className="p-4 sm:w-1/2 md:w-1/3 lg:w-1/3 flex flex-col text-center items-center">
           <div className="w-20 h-20 inline-flex items-center justify-center rounded-full mb-5 flex-shrink-0">
             <Image
@@ -152,7 +164,30 @@ export default function Habilidades() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
+    
+      <Carousel
+        opts={{
+          align: "start",
+        }}
+        className="w-full max-w-sm"
+      >
+        <CarouselContent>
+          {Array.from({ length: 5 }).map((_, index) => (
+            <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+              <div className="p-1">
+                <Card>
+                  <CardContent className="flex aspect-square items-center justify-center p-6">
+                    <span className="text-3xl font-semibold">{index + 1}</span>
+                  </CardContent>
+                </Card>
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
+      </Carousel>
     </div>
   );
 }
