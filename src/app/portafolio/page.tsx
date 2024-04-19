@@ -1,5 +1,14 @@
 import Image from "next/image";
 
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+
 export default function Portafolio() {
   return (
     <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-16 py-8 sm:py-12 md:py-16 lg:py-20">
@@ -10,7 +19,49 @@ export default function Portafolio() {
           </h1>
         </div>
       </div>
-      <div className="flex flex-wrap -mx-4">
+
+      <div className="flex justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <Card className="w-full">
+            <CardHeader className="flex flex-col items-start">
+              <CardTitle>Card Title</CardTitle>
+              <CardDescription>Card Description</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p>Card Content</p>
+            </CardContent>
+            <CardFooter>
+              <p>Card Footer</p>
+            </CardFooter>
+          </Card>
+          <Card className="w-full">
+            <CardHeader className="flex flex-col items-start">
+              <CardTitle>Card Title</CardTitle>
+              <CardDescription>Card Description</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p>Card Content</p>
+            </CardContent>
+            <CardFooter>
+              <p>Card Footer</p>
+            </CardFooter>
+          </Card>
+          <Card className="w-full">
+            <CardHeader className="flex flex-col items-start">
+              <CardTitle>Card Title</CardTitle>
+              <CardDescription>Card Description</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p>Card Content</p>
+            </CardContent>
+            <CardFooter>
+              <p>Card Footer</p>
+            </CardFooter>
+          </Card>
+        </div>
+      </div>
+
+      {/* <div className="flex flex-wrap -mx-4">
         <div className="xl:w-1/3 md:w-1/2 p-4">
           <div className="bg-orange-200 p-6 rounded-lg">
             <Image
@@ -64,7 +115,7 @@ export default function Portafolio() {
         <button className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
           Portafolio
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
