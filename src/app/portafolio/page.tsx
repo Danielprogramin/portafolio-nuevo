@@ -12,52 +12,60 @@ import {
 export default function Portafolio() {
   return (
     <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-16 py-8 sm:py-12 md:py-16 lg:py-20">
-      <div className="flex flex-wrap w-full mb-8 sm:mb-12 md:mb-16 lg:mb-20">
+      <div className="flex flex-wrap w-full mb-8 sm:mb-12 md:mb-16 lg:mb-20 justify-center">
         <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 flex justify-center">
             Portafolio
           </h1>
         </div>
       </div>
 
-      <div className="flex justify-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          <Card className="w-full">
-            <CardHeader className="flex flex-col items-start">
-              <CardTitle>Card Title</CardTitle>
-              <CardDescription>Card Description</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p>Card Content</p>
-            </CardContent>
-            <CardFooter>
-              <p>Card Footer</p>
-            </CardFooter>
-          </Card>
-          <Card className="w-full">
-            <CardHeader className="flex flex-col items-start">
-              <CardTitle>Card Title</CardTitle>
-              <CardDescription>Card Description</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p>Card Content</p>
-            </CardContent>
-            <CardFooter>
-              <p>Card Footer</p>
-            </CardFooter>
-          </Card>
-          <Card className="w-full">
-            <CardHeader className="flex flex-col items-start">
-              <CardTitle>Card Title</CardTitle>
-              <CardDescription>Card Description</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p>Card Content</p>
-            </CardContent>
-            <CardFooter>
-              <p>Card Footer</p>
-            </CardFooter>
-          </Card>
+      <div className="flex flex-wrap -mx-4 justify-center">
+        <div className="flex justify-center">
+          <div>
+            <Card className="w-[380px] m-4">
+              <CardHeader>
+                <CardTitle>Card Title 1</CardTitle>
+                <CardDescription>Card Description</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Card Content</p>
+              </CardContent>
+              <CardFooter>
+                <p>Card Footer</p>
+              </CardFooter>
+            </Card>
+          </div>
+
+          <div>
+            <Card className="w-[380px] m-4">
+              <CardHeader>
+                <CardTitle>Card Title 2</CardTitle>
+                <CardDescription>Card Description</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Card Content</p>
+              </CardContent>
+              <CardFooter>
+                <p>Card Footer</p>
+              </CardFooter>
+            </Card>
+          </div>
+
+          <div>
+            <Card className="w-[380px] m-4">
+              <CardHeader>
+                <CardTitle>Card Title 3</CardTitle>
+                <CardDescription>Card Description</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Card Content</p>
+              </CardContent>
+              <CardFooter>
+                <p>Card Footer</p>
+              </CardFooter>
+            </Card>
+          </div>
         </div>
       </div>
 
