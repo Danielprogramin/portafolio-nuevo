@@ -1,6 +1,6 @@
-import { B612_Mono } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 
-export const b612_mono = B612_Mono({ 
+export const poppins = Poppins({ 
     subsets: ['latin'],
     weight: ['400', '700'],
 })

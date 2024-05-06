@@ -26,7 +26,7 @@ export default function Habilidades() {
       </div>
 
       <div className="flex justify-center">
-        <Carousel className="w-full max-w-[90vw] sm:max-w-[70vw] md:max-w-[50vw]">
+        <Carousel className="w-full max-w-[100vw] sm:max-w-[80vw] md:max-w-[60vw]">
           <CarouselContent className="w-full md:w-1/3">
             <CarouselItem>
               <Card className="h-[300px]">

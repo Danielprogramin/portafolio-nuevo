@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { b612_mono } from "../../fonts";
+import { poppins } from "../../fonts";
 import Nav from "../components/Nav";
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${b612_mono.className} antialiased`}>
+      <body className={`${poppins.className} antialiased`}>
         <div>
           <Nav />
         </div>

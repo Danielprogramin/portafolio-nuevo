@@ -6,33 +6,31 @@ import Portafolio from "./portafolio/page";
 
 export default function Home() {
   return (
-    <main className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 py-8 sm:py-10 md:py-12 lg:py-14 xl:py-16">
-      <div>
-        <div className="lg:flex lg:flex-row md:flex md:flex-row sm:flex sm:flex-col items-center justify-center w-full">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="text-black text-2xl sm:text-2xl md:text-2xl lg:text-2xl">
-              Hola, Soy Daniel Ortiz
-            </h1>
-            <p className="sm:text-3xl text-2xl mb-8 text-black">
-              Amante de la programación, apasionado por el desarrollo web,
-              poseedor de muchas habilidades a la hora de desarrollar como lo
-              son el manejo de distintos lenguajes de programación.
-            </p>
-            <div className="flex justify-center sm:justify-start">
-              <button className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
-                Conoceme
-              </button>
-            </div>
+    <main className="flex min-h-screen flex-col p-6">
+      <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
+        <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
+          <h1 className="text-black text-2xl sm:text-2xl md:text-2xl lg:text-2xl">
+            Hola, Soy Daniel Ortiz
+          </h1>
+          <p className="sm:text-3xl text-2xl mb-8 text-black">
+            Amante de la programación, apasionado por el desarrollo web,
+            poseedor de muchas habilidades a la hora de desarrollar como lo son
+            el manejo de distintos lenguajes de programación.
+          </p>
+          <div className="flex justify-center sm:justify-start">
+            <button className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+              Conoceme
+            </button>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <Image
-              className="object-cover object-center rounded ml-10"
-              alt="hero"
-              src="/images/perfil.png"
-              width={720}
-              height={600}
-            />
-          </div>
+        </div>
+        <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
+          <Image
+            className="object-cover object-center rounded ml-10"
+            alt="hero"
+            src="/images/perfil.png"
+            width={720}
+            height={600}
+          />
         </div>
       </div>
 
