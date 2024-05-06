@@ -29,7 +29,7 @@ export default function Habilidades() {
         <Carousel className="w-full max-w-[90vw] sm:max-w-[70vw] md:max-w-[50vw]">
           <CarouselContent className="w-full md:w-1/3">
             <CarouselItem>
-              <Card>
+              <Card className="h-[300px]">
                 <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
                   <Image
                     src="/images/react.png"
@@ -40,7 +40,7 @@ export default function Habilidades() {
                   <h2 className="text-black text-lg title-font font-medium mb-3">
                     React
                   </h2>
-                  <p className="leading-relaxed  text-black">
+                  <p className=" text-black text-center">
                     Amplio conocimiento y experiencia en la creación de
                     interfaces de usuario interactivas y dinámicas con React.js.
                   </p>
@@ -48,7 +48,7 @@ export default function Habilidades() {
               </Card>
             </CarouselItem>
             <CarouselItem>
-              <Card>
+              <Card className="h-[300px]">
                 <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
                   <Image
                     src="/images/next.png"
@@ -59,7 +59,7 @@ export default function Habilidades() {
                   <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
                     Next JS
                   </h2>
-                  <p className="leading-relaxed text-black">
+                  <p className="text-black text-center">
                     Dominio de Next.js para el desarrollo de aplicaciones web
                     estáticas y pre-renderizadas con React.
                   </p>
@@ -67,7 +67,7 @@ export default function Habilidades() {
               </Card>
             </CarouselItem>
             <CarouselItem>
-              <Card>
+              <Card className="h-[300px]">
                 <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
                   <svg
                     fill="none"
@@ -84,7 +84,7 @@ export default function Habilidades() {
                   <h2 className="text-black text-lg title-font font-medium mb-3">
                     JavaScript
                   </h2>
-                  <p className="leading-relaxed text-black">
+                  <p className="text-black text-center">
                     Sólida comprensión de los fundamentos de JavaScript,
                     incluyendo variables, funciones, objetos, DOM, eventos y
                     programación asincrónica.
@@ -93,7 +93,7 @@ export default function Habilidades() {
               </Card>
             </CarouselItem>
             <CarouselItem>
-              <Card>
+              <Card className="h-[300px]">
                 <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
                   <svg
                     fill="none"
@@ -110,7 +110,7 @@ export default function Habilidades() {
                   <h2 className="text-black text-lg title-font font-medium mb-3">
                     Tailwind
                   </h2>
-                  <p className="leading-relaxed text-black">
+                  <p className="text-black text-center">
                     Habilidad para escribir código HTML y CSS limpio y eficiente
                     para crear interfaces de usuario atractivas.
                   </p>
@@ -118,7 +118,7 @@ export default function Habilidades() {
               </Card>
             </CarouselItem>
             <CarouselItem>
-              <Card>
+              <Card className="h-[300px]">
                 <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
                   <svg
                     fill="none"
@@ -135,7 +135,7 @@ export default function Habilidades() {
                   <h2 className="text-black text-lg title-font font-medium mb-3">
                     PHP
                   </h2>
-                  <p className="leading-relaxed text-black">
+                  <p className="text-black text-center">
                     Amplio conocimiento y experiencia en el desarrollo de
                     aplicaciones web con PHP.
                   </p>
@@ -143,7 +143,7 @@ export default function Habilidades() {
               </Card>
             </CarouselItem>
             <CarouselItem>
-              <Card>
+              <Card className="h-[300px]">
                 <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
                   <svg
                     fill="none"
@@ -160,7 +160,7 @@ export default function Habilidades() {
                   <h2 className="text-black text-lg title-font font-medium mb-3">
                     Laravel
                   </h2>
-                  <p className="leading-relaxed text-black">
+                  <p className="text-black text-center">
                     Dominio del framework Laravel para crear aplicaciones web
                     robustas y escalables.
                   </p>
