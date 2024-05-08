@@ -18,7 +18,7 @@ export default function About() {
           <h1 className="text-black text-2xl sm:text-2xl md:text-2xl lg:text-2xl">
             Daniel Ortiz
           </h1>
-          <p className="sm:text-3xl text-2xl mb-8 text-black">
+          <p className="sm:text-1xl text-1xl mb-8 text-black">
             Como desarrollador de software poseo un amplio conocimiento técnico
             y habilidades blandas como la resolución de problemas, la
             comunicación efectiva, el trabajo en equipo, la capacidad de
