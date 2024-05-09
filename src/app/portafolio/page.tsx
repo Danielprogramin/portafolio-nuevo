@@ -20,7 +20,7 @@ export default function Portafolio() {
         </div>
 
         <div className="flex flex-wrap -mx-4 justify-center">
-          <div className="flex justify-center">
+          <div className="flex flex-wrap -mx-4 justify-center md:justify-start lg:justify-end">
             <div>
               <Card className="w-[380px] m-4">
                 <CardHeader>

@@ -14,7 +14,7 @@ export default function About() {
           />
         </div>
 
-        <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
+        <div className="flex flex-col justify-center gap-6 rounded-lg px-6 py-10 md:w-2/5 md:px-20">
           <h1 className="text-black text-2xl sm:text-2xl md:text-2xl lg:text-2xl">
             Daniel Ortiz
           </h1>
