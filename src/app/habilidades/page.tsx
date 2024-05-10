@@ -29,7 +29,7 @@ export default function Habilidades() {
           <Carousel className="w-full max-w-[100vw] sm:max-w-[80vw] md:max-w-[60vw]">
             <CarouselContent className="w-full md:w-1/3">
               <CarouselItem>
-                <Card className="h-[300px]">
+                <Card>
                   <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
                     <svg
                       viewBox="0 0 256 228"
@@ -55,7 +55,7 @@ export default function Habilidades() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="h-[300px]">
+                <Card>
                   <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ export default function Habilidades() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="h-[300px]">
+                <Card>
                   <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +110,7 @@ export default function Habilidades() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="h-[300px]">
+                <Card>
                   <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
                     <svg
                       viewBox="0 0 256 154"
@@ -148,7 +148,7 @@ export default function Habilidades() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="h-[300px]">
+                <Card>
                   <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -169,7 +169,7 @@ export default function Habilidades() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="h-[300px]">
+                <Card>
                   <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

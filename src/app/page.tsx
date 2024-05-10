@@ -1,8 +1,12 @@
+'use client'
 import Image from "next/image";
 import Nav from "../components/Nav";
 import About from "./about/page";
 import Habilidades from "./habilidades/page";
 import Portafolio from "./portafolio/page";
+import Lottie from "lottie-react";
+import Dev from "./animaciones/dev.json"
+import Conta from "./animaciones/conta.json"
 
 export default function Home() {
   return (
@@ -24,12 +28,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
-          <Image
-            className="object-cover object-center rounded ml-10"
-            alt="hero"
-            src="/images/perfil.png"
-            width={720}
-            height={600}
+          <Lottie animationData={Conta}
           />
         </div>
       </div>
