@@ -30,7 +30,7 @@ export default function Portafolio() {
             <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 m-4">
               <Card>
                 <CardHeader>
-                  <CardTitle>Card Title 1</CardTitle>
+                  <CardTitle>Rick Y Morty</CardTitle>
                   <CardDescription>Card Description</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -45,7 +45,7 @@ export default function Portafolio() {
             <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 m-4">
               <Card>
                 <CardHeader>
-                  <CardTitle>Card Title 2</CardTitle>
+                  <CardTitle>Dashboard</CardTitle>
                   <CardDescription>Card Description</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -60,7 +60,7 @@ export default function Portafolio() {
             <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 m-4">
               <Card>
                 <CardHeader>
-                  <CardTitle>Card Title 3</CardTitle>
+                  <CardTitle>Nova</CardTitle>
                   <CardDescription>Card Description</CardDescription>
                 </CardHeader>
                 <CardContent>
