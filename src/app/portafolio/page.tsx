@@ -30,15 +30,12 @@ export default function Portafolio() {
             <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 m-4">
               <Card>
                 <CardHeader>
-                  <CardTitle>Rick Y Morty</CardTitle>
+                  <CardTitle>Rick and Morty</CardTitle>
                   <CardDescription>Card Description</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p>Card Content</p>
+                  <p>API que consume personajes de la serie rick and morty</p>
                 </CardContent>
-                <CardFooter>
-                  <p>Card Footer</p>
-                </CardFooter>
               </Card>
             </div>
 
@@ -46,14 +43,11 @@ export default function Portafolio() {
               <Card>
                 <CardHeader>
                   <CardTitle>Dashboard</CardTitle>
-                  <CardDescription>Card Description</CardDescription>
+                  <CardDescription>Next js Dashboard</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p>Card Content</p>
+                  <p>Dashboard guia para adentrarte al mundi de nexts js , como herramientas de desarrollo</p>
                 </CardContent>
-                <CardFooter>
-                  <p>Card Footer</p>
-                </CardFooter>
               </Card>
             </div>
 
@@ -61,14 +55,11 @@ export default function Portafolio() {
               <Card>
                 <CardHeader>
                   <CardTitle>Nova</CardTitle>
-                  <CardDescription>Card Description</CardDescription>
+                  <CardDescription>Sistema de actualizacion </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p>Card Content</p>
+                  <p>Aplicativo para la gestion de egresados</p>
                 </CardContent>
-                <CardFooter>
-                  <p>Card Footer</p>
-                </CardFooter>
               </Card>
             </div>
           </div>
