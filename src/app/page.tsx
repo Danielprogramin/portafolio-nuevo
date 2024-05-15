@@ -5,7 +5,6 @@ import About from "./about/page";
 import Habilidades from "./habilidades/page";
 import Portafolio from "./portafolio/page";
 import Lottie from "lottie-react";
-import Dev from "./animaciones/dev.json";
 import Conta from "./animaciones/conta.json";
 import { motion } from "framer-motion";
 

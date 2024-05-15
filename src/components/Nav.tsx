@@ -21,10 +21,11 @@ export default function Navbar() {
       >
         <div className="hidden md:block">
           <nav className="text-black flex justify-center space-x-4 p-4 shadow-lg rounded-lg">
-            <Link href="/">Inicio</Link>
+            <Link href="/" >Inicio</Link>
             <Link href="/habilidades">Habilidades</Link>
             <Link href="/about">About me</Link>
             <Link href="/portafolio">Portafolio</Link>
+            <Link href="/contact">Contacto</Link>
           </nav>
         </div>
 
@@ -37,10 +38,11 @@ export default function Navbar() {
         {isMenuOpen && (
           <div className="md:hidden">
             <nav className="text-black flex flex-col justify-center space-y-4 p-4">
-              <Link href="/">Inicio</Link>
+              <Link href="/" className="underline decoration-orange-600">Inicio</Link>
               <Link href="/habilidades">Habilidades</Link>
               <Link href="/about">About me</Link>
               <Link href="/portafolio">Portafolio</Link>
+              <Link href="/contact">Contacto</Link>
             </nav>
           </div>
         )}
